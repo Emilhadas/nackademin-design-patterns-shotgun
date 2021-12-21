@@ -14,6 +14,7 @@ namespace inlämmningsuppgift2
     public partial class Form1 : Form
     {
         //ramis kommentar
+        //joy var här
 
         bool gameOver = false;
         int roundTimer = 6;
