@@ -16,6 +16,7 @@ namespace inlämmningsuppgift2
         //ramis kommentar
         //joy var här
         //Emil was here
+        //det funkar :)
 
         bool gameOver = false;
         int roundTimer = 6;
