@@ -15,6 +15,7 @@ namespace inlämmningsuppgift2
     {
         //ramis kommentar
         //joy var här
+        //Emil was here
 
         bool gameOver = false;
         int roundTimer = 6;
@@ -232,5 +233,7 @@ namespace inlämmningsuppgift2
 
             startNextRound();
         }
+
+
     }
 }
