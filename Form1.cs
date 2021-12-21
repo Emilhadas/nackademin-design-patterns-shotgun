@@ -13,6 +13,8 @@ namespace inlämmningsuppgift2
 
     public partial class Form1 : Form
     {
+        //Ramis kommentar
+
         bool gameOver = false;
         int roundTimer = 6;
 
