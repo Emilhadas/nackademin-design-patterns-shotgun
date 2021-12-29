@@ -19,6 +19,8 @@ namespace Shotgun_1._0
         public static int action;
         public int round;
         public static string message;
+        Score score = Score.Instance();
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -116,9 +118,12 @@ namespace Shotgun_1._0
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
+            Winner();
             PlayerActions pA = new PlayerActions();
             CpuActions cA = new CpuActions();
 
+           
+            
             pA.ScoreReset();
             cA.ScoreReset();
             lbxScoresheet.Items.Clear();
@@ -242,5 +247,14 @@ namespace Shotgun_1._0
         {
 
         }
+
+        public void Winner()
+        {
+            PlayerWins.Text = score.playerScore.ToString();
+            ComputerWins.Text = score.computerScore.ToString();
+
+        }
+
+
     }
 }

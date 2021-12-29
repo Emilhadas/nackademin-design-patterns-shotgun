@@ -16,7 +16,8 @@ namespace Shotgun_1._0
 
             PlayerActions pa = new PlayerActions();
             CpuActions ca = new CpuActions();
-
+            Score playerScore = Score.Instance();
+            Score computerScore = Score.Instance();
 
             pA = pa.PlayerChoice(choice);
             cA = ca.Action();
@@ -33,6 +34,7 @@ namespace Shotgun_1._0
             else if (pA == 1 && cA == 3 || (cA == 4 && pA != 4))
             {
                 Result = "You Lose";
+                computerScore.computerScore++;
                 return Result;
 
             }
@@ -46,6 +48,8 @@ namespace Shotgun_1._0
             else if (pA == 2 && cA == 4)
             {
                 Result = "You Lose";
+                computerScore.computerScore++;
+
                 return Result;
 
             }
@@ -54,6 +58,7 @@ namespace Shotgun_1._0
             else if (pA == 3 && cA == 1)
             {
                 Result = "You Win!";
+                playerScore.playerScore++;
                 return Result;
 
             }
@@ -66,6 +71,8 @@ namespace Shotgun_1._0
             else if (pA == 3 && cA == 4)
             {
                 Result = "You Lose";
+                computerScore.computerScore++;
+
                 return Result;
 
             }
@@ -77,6 +84,8 @@ namespace Shotgun_1._0
             else if (pA == 4 && cA != 4)
             {
                 Result = "You Win!";
+                playerScore.playerScore++;
+
                 return Result;
             }
             else

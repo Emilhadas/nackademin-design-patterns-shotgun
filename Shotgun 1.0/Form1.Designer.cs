@@ -47,6 +47,9 @@ namespace Shotgun_1._0
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnShotgun = new System.Windows.Forms.Button();
             this.lbxScoresheet = new System.Windows.Forms.ListBox();
+            this.PlayerWins = new System.Windows.Forms.TextBox();
+            this.ComputerWins = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLoad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxShoot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBlock)).BeginInit();
@@ -247,11 +250,39 @@ namespace Shotgun_1._0
             this.lbxScoresheet.Size = new System.Drawing.Size(346, 364);
             this.lbxScoresheet.TabIndex = 16;
             // 
+            // PlayerWins
+            // 
+            this.PlayerWins.Location = new System.Drawing.Point(30, 401);
+            this.PlayerWins.Name = "PlayerWins";
+            this.PlayerWins.ReadOnly = true;
+            this.PlayerWins.Size = new System.Drawing.Size(100, 23);
+            this.PlayerWins.TabIndex = 20;
+            // 
+            // ComputerWins
+            // 
+            this.ComputerWins.Location = new System.Drawing.Point(283, 401);
+            this.ComputerWins.Name = "ComputerWins";
+            this.ComputerWins.ReadOnly = true;
+            this.ComputerWins.Size = new System.Drawing.Size(100, 23);
+            this.ComputerWins.TabIndex = 21;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(184, 404);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 15);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "Vinster";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.ComputerWins);
+            this.Controls.Add(this.PlayerWins);
             this.Controls.Add(this.lbxScoresheet);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -266,6 +297,7 @@ namespace Shotgun_1._0
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -289,6 +321,9 @@ namespace Shotgun_1._0
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnShotgun;
         private System.Windows.Forms.ListBox lbxScoresheet;
+        private System.Windows.Forms.TextBox PlayerWins;
+        private System.Windows.Forms.TextBox ComputerWins;
+        private System.Windows.Forms.Label label3;
     }
 }
 

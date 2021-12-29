@@ -10,23 +10,39 @@ namespace Shotgun_1._0
     {
 
         static Score instance;
+        
 
-        protected Score()
+
+
+        public Score()
         {
-        private int playerScore = 0;
-        private int computerScore = 0;
-    }
+            
+        }
+
+        public int playerScore { get; set; }
+
+
+        public int computerScore { get; set; }
+
         public static Score Instance()
         {
             if (instance == null)
             {
                 instance = new Score();
+               
             }
             return instance;
         }
 
-        public int playerScore{get; set;}
-        public int computerScore{get; set;}
 
-  }
+        
+        public void ResetScore()
+        {
+            playerScore = 0;
+            computerScore = 0;
+        }
+
+        
+
+    }
 }
