@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ramib\\.nuget\\packages\\": {}
+    "C:\\Users\\aarbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ramib\\source\\repos\\nackademin-design-patterns-shotgun\\Shotgun 1.0\\Shotgun 1.0.csproj",
+      "projectUniqueName": "C:\\Users\\aarbe\\source\\repos\\nackademin-design-patterns-shotgun\\.vs\\Shotgun 1.0\\Shotgun 1.0.csproj",
       "projectName": "Shotgun 1.0",
-      "projectPath": "C:\\Users\\ramib\\source\\repos\\nackademin-design-patterns-shotgun\\Shotgun 1.0\\Shotgun 1.0.csproj",
-      "packagesPath": "C:\\Users\\ramib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ramib\\source\\repos\\nackademin-design-patterns-shotgun\\Shotgun 1.0\\obj\\",
+      "projectPath": "C:\\Users\\aarbe\\source\\repos\\nackademin-design-patterns-shotgun\\.vs\\Shotgun 1.0\\Shotgun 1.0.csproj",
+      "packagesPath": "C:\\Users\\aarbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aarbe\\source\\repos\\nackademin-design-patterns-shotgun\\.vs\\Shotgun 1.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ramib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aarbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

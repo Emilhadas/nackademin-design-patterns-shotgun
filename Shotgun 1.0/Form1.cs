@@ -122,8 +122,19 @@ namespace Shotgun_1._0
             PlayerActions pA = new PlayerActions();
             CpuActions cA = new CpuActions();
 
-           
-            
+            if (score.playerScore == 3)
+            {
+                score.ResetScore();
+
+                MessageBox.Show("You are the superior gunslinger");
+            }
+            else if (score.computerScore == 3)
+            {
+                score.ResetScore();
+
+                MessageBox.Show("You are not the superior gunslinger");
+            }
+
             pA.ScoreReset();
             cA.ScoreReset();
             lbxScoresheet.Items.Clear();
