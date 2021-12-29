@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace Shotgun_1._0
 {
     static class Program
-    {
+    { 
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
