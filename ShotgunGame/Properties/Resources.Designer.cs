@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace inlämmningsuppgift2.Properties {
+namespace ShotgunGame.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace inlämmningsuppgift2.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("inlämmningsuppgift2.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ShotgunGame.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace inlämmningsuppgift2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap handgun {
+        internal static System.Drawing.Bitmap Gun {
             get {
-                object obj = ResourceManager.GetObject("handgun", resourceCulture);
+                object obj = ResourceManager.GetObject("Gun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace inlämmningsuppgift2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap loading {
+        internal static System.Drawing.Bitmap Load {
             get {
-                object obj = ResourceManager.GetObject("loading", resourceCulture);
+                object obj = ResourceManager.GetObject("Load", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace inlämmningsuppgift2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap question_mark {
+        internal static System.Drawing.Bitmap Shield {
             get {
-                object obj = ResourceManager.GetObject("question-mark", resourceCulture);
+                object obj = ResourceManager.GetObject("Shield", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace inlämmningsuppgift2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shield {
+        internal static System.Drawing.Bitmap Shotgun {
             get {
-                object obj = ResourceManager.GetObject("shield", resourceCulture);
+                object obj = ResourceManager.GetObject("Shotgun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
