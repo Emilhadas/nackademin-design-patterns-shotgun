@@ -71,7 +71,7 @@ namespace Shotgun_1._0
             PlayerActions pA = new PlayerActions();
             CpuActions cA = new CpuActions();
             Clash clash = new Clash();
-             message = clash.Fight(2);
+            message = clash.Fight(2);
             pbxBlock.Show();
             tbxCPUAmmo.Text = cA.GetCpuAmmo().ToString();
 
@@ -146,7 +146,7 @@ namespace Shotgun_1._0
 
             ResultFromEachRound(message);
             LossWinHandler(message);
-            if(pA.PlayerAmmunition()< 3)
+            if (pA.PlayerAmmunition() < 3)
             {
                 btnShotgun.Hide();
             }
@@ -198,7 +198,7 @@ namespace Shotgun_1._0
             return action;
         }
 
-       
+
         public void ResultFromEachRound(string msg)
         {
             Clash c = new Clash();
@@ -209,12 +209,12 @@ namespace Shotgun_1._0
 
         public void LossWinHandler(string msg)
         {
-            if(msg == "You Lose")
+            if (msg == "You Lose")
             {
                 Falsifier();
                 MessageBox.Show("You lose");
             }
-            if(msg == "You Win!")
+            if (msg == "You Win!")
             {
                 Falsifier();
                 MessageBox.Show("You win, good job!");
@@ -229,7 +229,7 @@ namespace Shotgun_1._0
             btnLoad.Enabled = false;
             btnBlock.Enabled = false;
         }
-       public void Enabler()
+        public void Enabler()
         {
             btnShotgun.Enabled = true;
             btnShoot.Enabled = true;
