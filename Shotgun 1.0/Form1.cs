@@ -121,6 +121,7 @@ namespace Shotgun_1._0
             Winner();
             PlayerActions pA = new PlayerActions();
             CpuActions cA = new CpuActions();
+            
 
             if (score.playerScore == 3)
             {

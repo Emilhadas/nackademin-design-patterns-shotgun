@@ -14,7 +14,7 @@ namespace Shotgun_1._0
 
 
 
-        public Score()
+        protected Score()
         {
             
         }
